@@ -1,0 +1,27 @@
+body{
+    background-color: #f7f7fe;
+}
+.jumbotron{
+    padding-top: 6rem;
+    background-color:#6a26cd;
+}
+
+#portfolio, #contact{
+    background-color:#6a26cd;
+}
+
+.btn{
+    background-color: #100f10;
+}
+
+.btn:hover{
+    background-color:blueviolet;
+}
+
+footer{
+    background-color: #100f10;
+}
+
+section{
+    padding-top: 5rem;
+}
