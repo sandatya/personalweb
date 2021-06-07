@@ -8,8 +8,12 @@
     <!-- Bootstrap CSS rgba(6, 207, 113, 0.877);,  rgba(158, 243, 203, 0.877)-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
+    <!--AOS-->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!--my css-->
     <link rel="stylesheet" href="style.css">
+
     <title>My Website || Sandatya Widhiyanti</title>
   </head>
   <body id="home">
@@ -44,10 +48,10 @@
 
     <!--jumbotron -->
     <div class="jumbotron text-center">
-        <img src="./img/gungt1.jpg" alt="sandatya" width="200px" class="rounded-circle img-thumbnail">
+        <img src="/img/gungt1.jpg" alt="sandatya" width="200px" class="rounded-circle img-thumbnail">
         <h1 class="display-4" style="color: white;">Sandatya Widhiyanti</h1>
         <p class="lead" th="200px" class="rounded-circle img-thumbnail">
-        <h1 class="display-4" style="color: white;">Teacher || Web Developer</p>
+        <h8 class="display-8" style="color: white;">Teacher || Web Developer</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f7f7fe" fill-opacity="1" d="M0,96L34.3,112C68.6,128,137,160,206,149.3C274.3,139,343,85,411,69.3C480,53,549,75,617,112C685.7,149,754,203,823,213.3C891.4,224,960,192,1029,170.7C1097.1,149,1166,139,1234,138.7C1302.9,139,1371,149,1406,154.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
         
       
@@ -56,7 +60,7 @@
 
     <!--about-->
     <section id="about">
-        <div class="container">
+        <div class="container"  data-aos="fade-down">
             <div class="row text-center mb-5">
                 <div class="col">
                     <h2>About Me</h2>
@@ -84,7 +88,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 mb-5">
-                    <div class="card">
+                    <div class="card" data-aos="flip-right" data-aos-duration="500" >
                         <img src="./img/aplikasi ekstrakurikuler.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text text-center">Aplikasi ekstra dengan konsep gamification</p>
@@ -92,15 +96,15 @@
                       </div>
                 </div>
                 <div class="col-md-4 mb-5">
-                    <div class="card">
-                        <img src="./img/crud sederhana.png" class="card-img-top" alt="...">
+                    <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="100">
+                        <img src="/img/crud sederhana.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text text-center">Aplikasi CRUD bahasa pemrograman PHP </p>
                         </div>
                       </div>
                 </div>
                 <div class="col-md-4 mb-5">
-                    <div class="card">
+                    <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="200">
                         <img src="./img/musictube.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text text-center">Aplikasi Download dan Upload Music</p>
@@ -108,7 +112,7 @@
                       </div>
                 </div>
                 <div class="col-md-4 mb-5">
-                    <div class="card">
+                    <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="300">
                         <img src="./img/projrect digitalent.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text text-center">Project Digitalent</p>
@@ -116,7 +120,7 @@
                       </div>
                 </div>
                 <div class="col-md-4 mb-5">
-                    <div class="card">
+                    <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="400">
                         <img src="./img/pwafootball.PNG" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text text-center">Aplikasi PWA Football</p>
@@ -124,7 +128,7 @@
                       </div>
                 </div>
                 <div class="col-md-4 mb-5">
-                    <div class="card">
+                    <div class="card" data-aos="flip-right">
                         <img src="./img/website tari bali.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text text-center">Website Pengenalan Tari Bali</p>
@@ -147,7 +151,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 mb-5">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="500" >
                         <img src="./img/1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text text-center">Mengajar</p>
@@ -155,40 +159,40 @@
                       </div>
                 </div>
                 <div class="col-md-4 mb-5">
-                    <div class="card">
-                        <img src="./img/2.png" class="card-img-top" alt="...">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
+                        <img src="/img/2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text text-center">Membuat Aplikasi berbasis Web/Desktop</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-md-4 mb-5">
-                    <div class="card">
-                        <img src="./img/3.png" class="card-img-top" alt="...">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
+                        <img src="/img/3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text text-center">Konsultasi Tugas Akhir/Magang</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-md-4 mb-5">
-                    <div class="card">
-                        <img src="./img/4.png" class="card-img-top" alt="...">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
+                        <img src="/img/4.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text text-center">Instal Aplikasi</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-md-4 mb-5">
-                    <div class="card">
-                        <img src="./img/5.png" class="card-img-top" alt="...">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
+                        <img src="/img/5.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text text-center">Membuat Flowchart ERD,UML,DFD, dll</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-md-4 mb-5">
-                    <div class="card">
-                        <img src="./img/7.png" class="card-img-top" alt="...">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500">
+                        <img src="/img/7.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text text-center">Kursus Online/Tatap Muka</p>
                         </div>
@@ -249,10 +253,29 @@
 
     <!--footer-->
    <footer class="text-white text-center pb-5">
-       <p>This Website was built by <a href="https://www.linkedin.com/in/gung-tia-214085176/">Sandatya Widhiyanti</a></p>
+       <p>This Website was built by <a href="https://www.instagram.com/sandatyaw/?hl=en">Sandatya Widhiyanti</a></p>
    </footer>
     <!--akhir footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!--script AOS javascript-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once:true,
+      });
+    </script>
+    <!--akhir AOS js-->  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+    <script>
+      //gsap.registerPlugin(TextPlugin);
+      //gsap.to('.lead',{duration:2.5,delay:1.5,text:});
+      gsap.from('.jumbotron img',{duration:1,rotateY:360,opacity:0});
+      gsap.from('.navbar',{duration:1.5,y:'-100%',opacity:0,ease:'bounce'});
+      gsap.from('.display-4',{duration:1,x:-50,opacity:0,delay:0.5,ease:'back'});
+      gsap.from('.display-8',{duration:1,x:-50,opacity:0,delay:0.5,ease:'back'});
+    </script>
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbw8bDUZFdFLF6MiObymgmrQU5wA2VRiGQfGkVV58U9HGyKem3Q-D27Xm4I8C5TViVPU/exec';
         const form = document.forms['sandatya-contact-form'];
